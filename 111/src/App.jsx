@@ -33,10 +33,10 @@ const nav = [
 ]
 
 const stats = [
-  ['16.5', '万元', '月均销售额'],
-  ['88.35', '%', '毛利提升'],
+  ['72', '万英镑', '旺季月均销售额'],
+  ['5.2', '万英镑', '淡季季月均销售额'],
   ['20', '+', '大型活动'],
-  ['50', '+', 'Listing 优化'],
+  ['16', '+', 'Listing 优化'],
 ]
 
 const skills = [
@@ -88,7 +88,7 @@ function Hero() {
       <div className="hero-grid" aria-hidden="true" />
       <div className="hero-wave" aria-hidden="true"><i /><i /><i /></div>
       <div className="hero-content shell">
-        <h1><span className="hero-title-main">Codex个人作品集<em className="hero-byline">——黄涛</em></span><strong>DATA × GROWTH</strong></h1>
+        <h1><span className="hero-title-main">个人作品集<em className="hero-byline">——黄涛</em></span><strong>DATA × GROWTH</strong></h1>
         <div className="hero-bottom">
           <p>用数据理解市场，用执行推动增长。<br />聚焦数据运营与跨境电商。</p>
         </div>
@@ -110,7 +110,7 @@ function About() {
           </div>
           <div className="bio">
             <p className="bio-lead">大数据管理与应用专业本科毕业生，具备数据分析、商业决策与跨境电商运营的复合背景。</p>
-            <p>在广州荧链科技有限公司担任亚马逊运营助理期间，我独立负责广告优化、促销执行与 Listing 管理，将月均销售额稳定在 16.5 万元，毛利较初期提升 88.35%。我重视数字背后的业务逻辑，也享受把分析真正落实到增长结果的过程。</p>
+            <p>在深圳市易佰网络有限公司担任亚马逊初级运营期间，我独立负责广告优化、促销执行与 Listing 管理，将旺季月均GMV稳定在 72 万英镑，净利润为6.8万英镑，淡季月均GMV为5.2万英镑，净利润为5300英镑。我重视数字背后的业务逻辑，也享受把分析真正落实到增长结果的过程。</p>
             <div className="contact-lines">
               <a href="mailto:H081748abc@outlook.com"><Mail size={16} /> H081748abc@outlook.com</a>
               <a href="tel:13536757317"><Phone size={16} /> 13536757317</a>
@@ -127,11 +127,11 @@ function About() {
 }
 
 function SalesVisual() {
-  return <div className="project-visual sales-visual"><div className="mock-top"><span>AMAZON / PERFORMANCE</span></div><div className="sales-number"><small>MONTHLY SALES</small><strong>¥165,000</strong><span><TrendingUp size={15} /> +88.35% GROSS PROFIT</span></div><div className="chart-bars">{[28,42,36,55,48,64,71,67,82,91,88,100].map((h,i)=><i key={i} style={{height:`${h}%`}} />)}</div><div className="visual-grid" /></div>
+  return <div className="project-visual sales-visual"><div className="mock-top"><span>AMAZON / PERFORMANCE</span></div><div className="sales-number"><small>MONTHLY SALES</small><strong>￡52,000</strong></div><div className="chart-bars">{[28,42,36,55,48,64,71,67,82,91,88,100].map((h,i)=><i key={i} style={{height:`${h}%`}} />)}</div><div className="visual-grid" /></div>
 }
 
 function DashboardVisual() {
-  return <div className="project-visual dashboard-visual"><div className="mock-top"><span>BUSINESS INTELLIGENCE</span></div><div className="dash-grid"><div className="dash-donut"><div><strong>27.34%</strong><span>ACOS</span></div></div><div className="dash-metrics"><span>毛利率<strong>24.85%</strong></span><span>新品调研<strong>04</strong></span><span>Listing<strong>50+</strong></span></div></div><svg viewBox="0 0 600 110" preserveAspectRatio="none"><polyline points="0,90 55,76 110,84 165,51 220,63 275,39 330,45 385,20 440,34 495,12 550,22 600,5" /></svg></div>
+  return <div className="project-visual dashboard-visual"><div className="mock-top"><span>BUSINESS INTELLIGENCE</span></div><div className="dash-grid"><div className="dash-donut"><div><strong>5.75%</strong><span>TACOS</span></div></div><div className="dash-metrics"><span>净利率<strong>10.2%</strong></span><span>新品<strong>02</strong></span><span>Listing<strong>11</strong></span></div></div><svg viewBox="0 0 600 110" preserveAspectRatio="none"><polyline points="0,90 55,76 110,84 165,51 220,63 275,39 330,45 385,20 440,34 495,12 550,22 600,5" /></svg></div>
 }
 
 function EventVisual() {

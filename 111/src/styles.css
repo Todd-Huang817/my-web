@@ -314,3 +314,6 @@ body{font-family:'Microsoft YaHei UI','Microsoft YaHei','PingFang SC',sans-serif
 .sales-visual .mock-top,.sales-visual .sales-number{z-index:3}
 .sales-visual .chart-bars{z-index:2;display:flex;opacity:1}
 .sales-visual .chart-bars i{display:block;opacity:1;transform:scaleY(1);animation:none}
+
+/* Dashboard KPI: the highlighted arc represents the displayed 5.75% TACOS. */
+.dashboard-visual .dash-donut{background:conic-gradient(#087f9b 0 5.75%,#afc9d5 5.75% 100%)}
